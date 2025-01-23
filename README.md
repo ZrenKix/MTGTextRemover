@@ -2,6 +2,8 @@
 
 Removes specific text (e.g., watermark phrases) from Magic: The Gathering card images. Uses Tesseract OCR to detect targeted words or phrases and OpenCV inpainting to remove them.
 
+![screenshot](images/start.png)
+
 ## Features
 - Detects user-defined text via Tesseract.
 - Configurable bounding box padding, dilation, and inpainting parameters.
